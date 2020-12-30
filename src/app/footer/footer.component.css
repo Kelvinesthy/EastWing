@@ -1,0 +1,26 @@
+footer{
+  background-image: url(../../assets/jeremy-thomas-E0AHdsENmDg-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer .epic{
+  background-color: rgba(0, 0, 255, 0.503);
+}
+footer .epic-close{
+  padding: 50px;
+}
+footer h2{
+  color: whitesmoke;
+  font-size: x-large;
+  font-family: fantasy;
+  font-style: oblique;
+}
+footer p{
+  color: whitesmoke;
+  font-weight: 800;
+}
+.row{
+  margin: 0;
+}
+
