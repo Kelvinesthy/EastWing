@@ -1,0 +1,64 @@
+.mini-setter{
+  background-image: url(../../assets/mike-von--GO7TP8Umgs-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mini-setter, .mini-color, .side-bar{
+  height: 30vh;
+}
+.mini-color{
+  background-color: rgba(0, 0, 0, 0.585);
+}
+.size-setter{
+  padding: 0 25vh;
+}
+.size-setter h2, .size-setter p{
+  color: white;
+  padding-top: 15vh;
+}
+.size-setter p{
+  font-size: x-large;
+}
+.side-bar{
+  border-left: solid 2px white;
+}
+@media only screen and (max-width: 767px) {
+  .size-setter{
+    padding: 0 4vh;
+  }
+  .size-setter h2, .size-setter p{
+    padding-top: 17vh;
+  }
+  .size-setter p{
+    font-size: small;
+  }
+  .mini-setter, .mini-color, .side-bar{
+    height: 40vh;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .size-setter{
+    padding: 0 8vh;
+  }
+  .size-setter h2, .size-setter p{
+    padding-top: 13vh;
+  }
+  .size-setter p{
+    font-size: small;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .size-setter{
+    padding: 0 10vh;
+  }
+  .size-setter h2, .size-setter p{
+    padding-top: 15vh;
+  }
+  .size-setter p{
+    font-size: medium;
+  }
+}
+@media only screen and (min-width: 1200px){
+}

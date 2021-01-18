@@ -26,11 +26,10 @@ export class AppComponent {
     /*------------------Navigation--------------------*/
     $(".header__menu").slicknav({
         prependTo: '#mobile-menu-wrap',
-        allowParentLinks: true
+        allowParentLinks: false,
     });
 
 
     })(jQuery);
-  }
+    }
 }
-

@@ -1,0 +1,88 @@
+ <section class="bypass">
+   <div>
+    <h2 class="text-center">Contact Us</h2>
+   </div>
+ </section>
+ <section class="submitfield text-center">
+   <form [formGroup]= "FormData" (ngSubmit)="onSubmit(FormData.value)">
+    <h2>Get in Touch</h2>
+    <div class="inputfield form-group">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-6 col-6 py-1">
+              <input class="form-control" required type="text" formControlName="Firstname" name="Firstname" placeholder="Firstname">
+            </div>
+            <div class="col-md-6 col-6 py-1">
+              <input class="form-control" required type="text" name="Lastname" formControlName="Lastname" placeholder="Lastname">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-6 col-6 py-1">
+              <input class="form-control" required type="email" formControlName="Email" name="Email" aria-describedby="emailHelp" placeholder="Email Address">
+              <small id="emailHelp" class="form-text text-muted">We'll never share youe wmail with anyone else.</small>
+            </div>
+            <div class="col-md-6 col-6 py-1">
+              <input class="form-control" type="number" required formControlName="Phonenumber" name="phoneNumber" placeholder="Phone Number">
+            </div>
+          </div>
+        </div>
+        <div class="col-12 py-1">
+          <textarea class="form-control" placeholder="Message" required formControlName="Message" name="Message" cols="30" rows="5"></textarea>
+        </div>
+      </div>
+      <button class="btn btn-danger my-2 px-5 py-2" type="submit" [disabled]="!FormData.valid">Submit</button>
+    </div>
+   </form>
+ </section>
+ <section class="openings">
+   <div class="opening-hour">
+    <div class="text-center">
+      <h2>Opening Hours</h2>
+      <table class="table">
+       <tbody>
+         <tr>
+           <td class="text-right">MONDAY-FRIDAY:</td>
+           <td class="text-left">8AM-8PM</td>
+         </tr>
+         <tr>
+           <td class="text-right">SATURDAY-SUNDAY:</td>
+           <td class="text-left">8AM-2PM</td>
+         </tr>
+       </tbody>
+      </table>
+    </div>
+   </div>
+ </section>
+ <section class="contact-info fixed-attachment">
+   <div class="contact-info-layout">
+    <div class="container jumbotron-adjuster">
+      <div class="jumbotron text-center footer__social">
+        <h1 class="text-center my-2">Contact</h1>
+        <div class="row py-2">
+          <div class="col-md-12 col-12">
+            <div class="row">
+              <div class="col-md-6 col-12"><a href="https://www.instagram.com/TaliusDike/" class="my-1"><i class="fa fa-instagram"></i>Despatluxuries</a></div>
+              <div class="col-md-6 col-12"><a href="https://web.facebook.com/ebeledikea" class="my-1"><i class="fa fa-facebook px-2"></i>Despat Luxuries</a></div>
+            </div>
+          </div>
+          <div class="col-md-12 col-12">
+            <div class="row">
+              <div class="col-md-6 col-12"><a class="my-1" href="https://twitter.com/TaliusDike_"><i class="fa fa-twitter px-2"></i>Despatluxuries</a></div>
+              <div class="col-md-6 col-12"><a href="#" class="my-1"><i class="fa fa-location-arrow px-2"></i>despatluxuries@gmail.com</a></div>
+            </div>
+          </div>
+          <div class="col-md-12 col-12">
+            <p class="fone"><i class="fa fa-phone-square mx-2"></i>+234(0)9036296286</p>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+ </section>
+ <div>
+  <app-footer></app-footer>
+ </div>
+

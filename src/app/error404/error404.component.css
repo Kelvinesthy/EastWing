@@ -1,0 +1,10 @@
+.errorMessage {
+  margin-top: 35vh;
+  font-size: 170px;
+  text-align: center;
+}
+@media only screen and (max-width: 767px){
+  .errorMessage{
+    font-size: 120px;
+  }
+}

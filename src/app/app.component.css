@@ -8,7 +8,7 @@
 	padding: 30px 0 27px;
 }
 header h4{
-  padding: 15px;
+  padding: 25px;
   padding-right: 0px;
   padding-left: 10px;
   margin: none;
@@ -52,11 +52,11 @@ header h4{
 	position: absolute;
 	left: 0;
 	top: 56px;
-	width: 150px;
-	background: #111111;
-	text-align: left;
+	width: 250px;
+	background: #ffffff;
+	text-align: center;
 	padding: 2px 0;
-	z-index: 9;
+	z-index: 95;
 	opacity: 0;
 	visibility: hidden;
 	-webkit-transition: all, 0.3s;
@@ -71,7 +71,7 @@ header h4{
 
 .header__menu ul li .dropdown li a {
 	font-size: 14px;
-	color: #ffffff;
+	color: #111111;
 	font-weight: 400;
 	padding: 8px 20px;
 	text-transform: capitalize;
@@ -82,7 +82,7 @@ header h4{
 }
 
 .header__menu ul li a {
-	font-size: 15px;
+	font-size: 12px;
 	text-transform: uppercase;
 	color: #111111;
 	font-weight: 500;
@@ -109,7 +109,13 @@ header h4{
 
 .header__right {
 	text-align: right;
-	padding: 30px 0 27px;
+	padding: 17px 0 15px;
+}
+.header__menu ul li a{
+  font-size: 12px;
+}
+.header h4{
+  font-size: 20px;
 }
 .offcanvas-menu-wrapper {
 	display: none;
@@ -121,12 +127,30 @@ header h4{
 .slick_menu{
   background-color: white;
 }
-
+.logo-section{
+  position: absolute;
+  bottom: 0px;
+  text-align: left;
+}
+.logo-section img{
+  width: 75%;
+  height: 55%;
+}
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
 @media only screen and (min-width: 1600px) and (max-width: 1900px) {
 	.header {
 		padding: 0 85px;
+  }
+  .header__right {
+    text-align: right;
+    padding: 17px 0 17px;
+  }
+  .header__menu ul li a{
+    font-size: 12px;
+  }
+  .header h4{
+    font-size: 18px;
   }
 }
 
@@ -277,7 +301,10 @@ header h4{
 	}
 	.header__right {
 		display: none;
-	}
+  }
+  .header h4{
+    padding: 20px;
+  }
 }
 
 /* Wide Mobile = 480px */
@@ -397,5 +424,8 @@ header h4{
 	}
 	.nav::after {
 		display: none;
+  }
+  .header h4{
+    padding: 15px;
   }
 }

@@ -1,0 +1,165 @@
+.bypass, .contact-info{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bypass{
+  background-image: url(../../assets/neven-krcmarek-V4EOZj7g1gw-unsplash.jpg);
+}
+.contact-info{
+  background-image: url(../../assets/pexels-pixabay-161758.jpg);
+}
+.bypass, .bypass div{
+  height: 30vh;
+}
+.bypass div{
+  background-color: rgba(0, 0, 0, 0.761);
+}
+.bypass h2{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  padding-top: 10vh;
+  margin-bottom: 4vh;
+}
+.fixed-attachment {
+  background-attachment: fixed;
+}
+em {float:right; color: #E05C65; padding-left: 10px}
+.submitfield{
+  padding: 5vh 50vh;
+}
+input{
+  margin: 5px;
+}
+.btn-danger{
+  background-color: darkgoldenrod ;
+}
+.inputfield h2{
+  padding-right: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+}
+.openings{
+  background-color: black;
+  height: 30vh;
+}
+.openings h2{
+  margin-right: 50px;
+  padding-top: 6vh;
+  color: white;
+}
+.table{
+  color: rgba(255, 255, 255, 0.714);
+}
+.table td, .table th{
+  border: none;
+  width: 50%;
+}
+.opening-hour{
+  padding: 0px 50vh;
+}
+.contact-info, .contact-info-layout{
+  height: 61vh;
+}
+.contact-info-layout{
+  background-color: rgba(184, 134, 11, 0.51);
+}
+.jumbotron-adjuster{
+  padding-top: 35px;
+}
+.footer__social i {
+	height: 40px;
+	width: 40px;
+	background: darkgoldenrod;
+	font-size: 15px;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 50%;
+    margin-right: 6px;
+	margin-bottom: 5px;
+}
+.footer__social a{
+  color: black;
+}
+@media only screen and (max-width: 767px){
+  .submitfield{
+    padding: 5vh 1vh;
+  }
+  .openings{
+    height: 26vh;
+  }
+  .opening-hour{
+    padding: 0;
+    padding-left: 3vh;
+  }
+  .openings h2{
+    font-size: x-large;
+  }
+  .table td, .table th{
+    font-size: small;
+  }
+  .contact-info, .contact-info-layout{
+    height: 55vh;
+  }
+}
+@media only screen and (max-height: 570px){
+  .second-layer, .second-filler{
+    height: 77vh;
+  }
+  .contact-info, .contact-info-layout{
+    height: 77vh;
+  }
+  .openings{
+    height: 31vh;
+  }
+}
+@media only screen and (min-height: 571px) and (max-height: 668px){
+  .second-layer, .second-filler{
+    height: 65vh;
+  }
+  .contact-info, .contact-info-layout{
+    height: 70vh;
+  }
+  .openings{
+    height: 28vh;
+  }
+}
+@media only screen and (max-width: 767px) and (min-height: 669px) and (max-height: 732px){
+  .contact-info, .contact-info-layout{
+    height: 66vh;
+  }
+}
+@media only screen and (max-width: 767px) and (min-height: 733px) and (max-height: 750px){
+  .contact-info, .contact-info-layout{
+    height: 60vh;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .submitfield{
+    padding: 5vh 20vh;
+  }
+  .openings{
+    height: 21vh;
+  }
+  .opening-hour{
+    padding: 0px 20vh;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-info, .contact-info-layout{
+    height: 42vh;
+  }
+}
+/* Medium Device = 1200px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .contact-info, .contact-info-layout{
+    height: 32vh;
+  }
+}
+@media only screen and (min-width: 1600px){
+  .contact-info, .contact-info-layout{
+    height: 30vh;
+  }
+}

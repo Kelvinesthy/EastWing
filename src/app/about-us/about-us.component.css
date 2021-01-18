@@ -1,0 +1,108 @@
+ .half-screen{
+   background-image: url(../../assets/pexels-vecislavas-popa-1571459.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ .filler{
+   background-color: rgba(0, 0, 0, 0.653);
+ }
+.half-screen, .filler{
+  height: 30vh;
+}
+.filler h2{
+  font-family: sans-serif;
+  color: white;
+  padding-top: 13vh;
+  font-style: italic;
+}
+.fixed-attachment {
+  background-attachment: fixed;
+}
+.about-words{
+  padding: 10vh;
+}
+.second-layer{
+  background-image: url(../../assets/pexels-pixabay-161758.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.second-layer, .second-filler{
+  height: 40vh;
+}
+.second-filler{
+  background-color: rgba(0, 0, 0, 0.653);
+}
+.values-section{
+  padding: 10vh;
+}
+.about-words p, .values-section p, .third-layer p{
+  font-size: medium;
+}
+.values-section h2, .values-section p{
+  color: white;
+}
+.values-section .border-check{
+  border-left: 2px solid white;
+}
+.third-layer{
+  padding: 10vh 30vh;
+}
+
+@media only screen and (max-width: 767px) {
+  .about-words{
+    padding: 10vh 5vh;
+  }
+  .about-words h2{
+    font-size: revert;
+    font-weight: 700;
+  }
+  .about-words p, .values-section p, .third-layer p{
+    font-size: small;
+  }
+  .values-section h2{
+    font-size: larger;
+  }
+  .second-layer, .second-filler{
+    height: 55vh;
+  }
+  .values-section{
+    padding: 5vh;
+  }
+  .third-layer{
+    padding: 5vh 2vh;
+  }
+}
+@media only screen and (max-height: 570px){
+  .second-layer, .second-filler{
+    height: 77vh;
+  }
+}
+@media only screen and (min-height: 571px) and (max-height: 645px){
+  .second-layer, .second-filler{
+    height: 65vh;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .values-section{
+    padding: 5vh;
+  }
+  .third-layer{
+    padding: 5vh 10vh;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .third-layer{
+    padding: 5vh 10vh;
+  }
+}
+@media only screen and (min-width: 1200px){
+  .about-words{
+    padding: 10vh 60vh;
+  }
+}
+
+
+
+

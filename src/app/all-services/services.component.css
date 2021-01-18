@@ -1,0 +1,53 @@
+.service-layer{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.service-double-layer, .service-layer{
+  height: 30vh;
+}
+.service-double-layer{
+  background-color: rgba(0, 0, 0, 0.632);
+  text-align: center;
+}
+.service-double-layer h2{
+  color: white;
+  padding-top: 13vh;
+}
+.fade{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5.5s;
+  animation-name: fade;
+  animation-duration: 5.5s;
+}
+@-webkit-keyframes fade{
+  from {opacity: .4;}
+  to {opacity: 1;}
+}
+@keyframes fade{
+  from {opacity: .8;}
+  to {opacity: 1;}
+}
+
+.overlay, .mySlides img{
+  height: 70vh;
+  width: 100%;
+}
+.overlay{
+  padding-top: 5vh;
+}
+@media only screen and (max-width: 767px){
+  .service-double-layer h2{
+    font-size: revert;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+/* Medium Device = 1200px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+@media only screen and (min-width: 1600px){
+
+}
